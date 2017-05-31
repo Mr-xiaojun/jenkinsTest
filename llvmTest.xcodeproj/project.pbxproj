@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DB9C44862447EECB1C4F571 /* libPods-llvmTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A48D137B13B2D19D4795A2E /* libPods-llvmTest.a */; };
+		AC31FA271EB03FC9009BEEDD /* NSObject+Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31FA261EB03FC9009BEEDD /* NSObject+Caculator.m */; };
+		AC31FA2A1EB0404A009BEEDD /* CaculatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31FA291EB0404A009BEEDD /* CaculatorManager.m */; };
 		AC5DBC191EAF6E9C003D4C5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5DBC181EAF6E9C003D4C5C /* main.m */; };
 		AC5DBC1C1EAF6E9C003D4C5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5DBC1B1EAF6E9C003D4C5C /* AppDelegate.m */; };
 		AC5DBC1F1EAF6E9C003D4C5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5DBC1E1EAF6E9C003D4C5C /* ViewController.m */; };
@@ -15,6 +18,12 @@
 		AC5DBC271EAF6E9C003D4C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5DBC251EAF6E9C003D4C5C /* LaunchScreen.storyboard */; };
 		AC5DBC321EAF6E9C003D4C5C /* llvmTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5DBC311EAF6E9C003D4C5C /* llvmTestTests.m */; };
 		AC5DBC3D1EAF6E9C003D4C5C /* llvmTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5DBC3C1EAF6E9C003D4C5C /* llvmTestUITests.m */; };
+		AC5DBC4C1EAF6F3F003D4C5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5DBC1E1EAF6E9C003D4C5C /* ViewController.m */; };
+		AC5DBC4D1EAF6F3F003D4C5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5DBC1B1EAF6E9C003D4C5C /* AppDelegate.m */; };
+		AC5DBC4E1EAF6F3F003D4C5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5DBC181EAF6E9C003D4C5C /* main.m */; };
+		AC5DBC511EAF6F3F003D4C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5DBC251EAF6E9C003D4C5C /* LaunchScreen.storyboard */; };
+		AC5DBC521EAF6F3F003D4C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5DBC231EAF6E9C003D4C5C /* Assets.xcassets */; };
+		AC5DBC531EAF6F3F003D4C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5DBC201EAF6E9C003D4C5C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A48D137B13B2D19D4795A2E /* libPods-llvmTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-llvmTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99187091BD0F580CF79C29D6 /* Pods-llvmTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-llvmTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-llvmTest/Pods-llvmTest.release.xcconfig"; sourceTree = "<group>"; };
+		AC31FA251EB03FC9009BEEDD /* NSObject+Caculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Caculator.h"; sourceTree = "<group>"; };
+		AC31FA261EB03FC9009BEEDD /* NSObject+Caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Caculator.m"; sourceTree = "<group>"; };
+		AC31FA281EB0404A009BEEDD /* CaculatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorManager.h; sourceTree = "<group>"; };
+		AC31FA291EB0404A009BEEDD /* CaculatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorManager.m; sourceTree = "<group>"; };
 		AC5DBC141EAF6E9C003D4C5C /* llvmTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = llvmTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5DBC181EAF6E9C003D4C5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC5DBC1A1EAF6E9C003D4C5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,9 @@
 		AC5DBC381EAF6E9C003D4C5C /* llvmTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = llvmTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5DBC3C1EAF6E9C003D4C5C /* llvmTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = llvmTestUITests.m; sourceTree = "<group>"; };
 		AC5DBC3E1EAF6E9C003D4C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5DBC571EAF6F3F003D4C5C /* llvmTest copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "llvmTest copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5DBC581EAF6F3F003D4C5C /* llvmTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "llvmTest copy-Info.plist"; path = "/Users/ehsy_it/Desktop/llvmTest/llvmTest copy-Info.plist"; sourceTree = "<absolute>"; };
+		FADE7E1908B270536B206E31 /* Pods-llvmTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-llvmTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-llvmTest/Pods-llvmTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB9C44862447EECB1C4F571 /* libPods-llvmTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +94,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC5DBC4F1EAF6F3F003D4C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22D461FD15E204036E788903 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FADE7E1908B270536B206E31 /* Pods-llvmTest.debug.xcconfig */,
+				99187091BD0F580CF79C29D6 /* Pods-llvmTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		783F4D53E417792BEC6EED00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A48D137B13B2D19D4795A2E /* libPods-llvmTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC5DBC0B1EAF6E9C003D4C5C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +128,9 @@
 				AC5DBC301EAF6E9C003D4C5C /* llvmTestTests */,
 				AC5DBC3B1EAF6E9C003D4C5C /* llvmTestUITests */,
 				AC5DBC151EAF6E9C003D4C5C /* Products */,
+				AC5DBC581EAF6F3F003D4C5C /* llvmTest copy-Info.plist */,
+				22D461FD15E204036E788903 /* Pods */,
+				783F4D53E417792BEC6EED00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +140,7 @@
 				AC5DBC141EAF6E9C003D4C5C /* llvmTest.app */,
 				AC5DBC2D1EAF6E9C003D4C5C /* llvmTestTests.xctest */,
 				AC5DBC381EAF6E9C003D4C5C /* llvmTestUITests.xctest */,
+				AC5DBC571EAF6F3F003D4C5C /* llvmTest copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +157,10 @@
 				AC5DBC251EAF6E9C003D4C5C /* LaunchScreen.storyboard */,
 				AC5DBC281EAF6E9C003D4C5C /* Info.plist */,
 				AC5DBC171EAF6E9C003D4C5C /* Supporting Files */,
+				AC31FA251EB03FC9009BEEDD /* NSObject+Caculator.h */,
+				AC31FA261EB03FC9009BEEDD /* NSObject+Caculator.m */,
+				AC31FA281EB0404A009BEEDD /* CaculatorManager.h */,
+				AC31FA291EB0404A009BEEDD /* CaculatorManager.m */,
 			);
 			path = llvmTest;
 			sourceTree = "<group>";
@@ -147,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC5DBC411EAF6E9C003D4C5C /* Build configuration list for PBXNativeTarget "llvmTest" */;
 			buildPhases = (
+				4E23DB80C146126124B652A8 /* [CP] Check Pods Manifest.lock */,
 				AC5DBC101EAF6E9C003D4C5C /* Sources */,
 				AC5DBC111EAF6E9C003D4C5C /* Frameworks */,
 				AC5DBC121EAF6E9C003D4C5C /* Resources */,
+				EC8D356B00173EAF84A8A25B /* [CP] Embed Pods Frameworks */,
+				5D902D43C477D09321F40D30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +250,23 @@
 			productReference = AC5DBC381EAF6E9C003D4C5C /* llvmTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AC5DBC4A1EAF6F3F003D4C5C /* llvmTest copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5DBC541EAF6F3F003D4C5C /* Build configuration list for PBXNativeTarget "llvmTest copy" */;
+			buildPhases = (
+				AC5DBC4B1EAF6F3F003D4C5C /* Sources */,
+				AC5DBC4F1EAF6F3F003D4C5C /* Frameworks */,
+				AC5DBC501EAF6F3F003D4C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "llvmTest copy";
+			productName = llvmTest;
+			productReference = AC5DBC571EAF6F3F003D4C5C /* llvmTest copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,6 +293,9 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = AC5DBC131EAF6E9C003D4C5C;
 					};
+					AC5DBC4A1EAF6F3F003D4C5C = {
+						DevelopmentTeam = SA7YFLBWYE;
+					};
 				};
 			};
 			buildConfigurationList = AC5DBC0F1EAF6E9C003D4C5C /* Build configuration list for PBXProject "llvmTest" */;
@@ -240,6 +314,7 @@
 				AC5DBC131EAF6E9C003D4C5C /* llvmTest */,
 				AC5DBC2C1EAF6E9C003D4C5C /* llvmTestTests */,
 				AC5DBC371EAF6E9C003D4C5C /* llvmTestUITests */,
+				AC5DBC4A1EAF6F3F003D4C5C /* llvmTest copy */,
 			);
 		};
 /* End PBXProject section */
@@ -269,16 +344,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC5DBC501EAF6F3F003D4C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5DBC511EAF6F3F003D4C5C /* LaunchScreen.storyboard in Resources */,
+				AC5DBC521EAF6F3F003D4C5C /* Assets.xcassets in Resources */,
+				AC5DBC531EAF6F3F003D4C5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E23DB80C146126124B652A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D902D43C477D09321F40D30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-llvmTest/Pods-llvmTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8D356B00173EAF84A8A25B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-llvmTest/Pods-llvmTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC5DBC101EAF6E9C003D4C5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC31FA271EB03FC9009BEEDD /* NSObject+Caculator.m in Sources */,
 				AC5DBC1F1EAF6E9C003D4C5C /* ViewController.m in Sources */,
 				AC5DBC1C1EAF6E9C003D4C5C /* AppDelegate.m in Sources */,
 				AC5DBC191EAF6E9C003D4C5C /* main.m in Sources */,
+				AC31FA2A1EB0404A009BEEDD /* CaculatorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +430,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5DBC3D1EAF6E9C003D4C5C /* llvmTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5DBC4B1EAF6F3F003D4C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5DBC4C1EAF6F3F003D4C5C /* ViewController.m in Sources */,
+				AC5DBC4D1EAF6F3F003D4C5C /* AppDelegate.m in Sources */,
+				AC5DBC4E1EAF6F3F003D4C5C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +570,7 @@
 		};
 		AC5DBC421EAF6E9C003D4C5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FADE7E1908B270536B206E31 /* Pods-llvmTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SA7YFLBWYE;
@@ -437,6 +583,7 @@
 		};
 		AC5DBC431EAF6E9C003D4C5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99187091BD0F580CF79C29D6 /* Pods-llvmTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SA7YFLBWYE;
@@ -497,6 +644,30 @@
 			};
 			name = Release;
 		};
+		AC5DBC551EAF6F3F003D4C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SA7YFLBWYE;
+				INFOPLIST_FILE = "llvmTest copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehsy.llvmTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC5DBC561EAF6F3F003D4C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SA7YFLBWYE;
+				INFOPLIST_FILE = "llvmTest copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehsy.llvmTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,6 +687,7 @@
 				AC5DBC431EAF6E9C003D4C5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC5DBC441EAF6E9C003D4C5C /* Build configuration list for PBXNativeTarget "llvmTestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +696,7 @@
 				AC5DBC461EAF6E9C003D4C5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC5DBC471EAF6E9C003D4C5C /* Build configuration list for PBXNativeTarget "llvmTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +705,16 @@
 				AC5DBC491EAF6E9C003D4C5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5DBC541EAF6F3F003D4C5C /* Build configuration list for PBXNativeTarget "llvmTest copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5DBC551EAF6F3F003D4C5C /* Debug */,
+				AC5DBC561EAF6F3F003D4C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>llvmTest copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>llvmTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>AC5DBC371EAF6E9C003D4C5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC5DBC4A1EAF6F3F003D4C5C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
